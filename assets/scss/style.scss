@@ -42,12 +42,6 @@ body {
   height: 100px;
 }
 
-@keyframes rolling {
-  50% {
-    transform: rotateX(455deg) rotateY(455deg);
-  }
-}
-
 .face {
   position: absolute;
   transform-style: preserve-3d;
