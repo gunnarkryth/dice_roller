@@ -7,7 +7,7 @@ const randomDice = () => {
 };
 
 const rollDice = (random) => {
-  // Define the rotation values for each face
+  // Rotation values
   const rotations = {
     1: { rotateX: 0, rotateY: 0 },
     2: { rotateX: -90, rotateY: 0 },
@@ -17,7 +17,7 @@ const rollDice = (random) => {
     6: { rotateX: 180, rotateY: 0 },
   };
 
-  // Perform the animation using anime.js
+  // Animation using anime.js
   anime({
     targets: dice,
     rotateX: [
